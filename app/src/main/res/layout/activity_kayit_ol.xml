@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KayitOl"
+    android:background="@color/turuncukoyu">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        app:cardElevation="50dp"
+        app:cardCornerRadius="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kayıt Ol"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                >
+            </TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/kullaniciadi"
+                android:hint="Kullanıcı Adı"
+                android:layout_marginTop="50dp"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="6dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:background="@drawable/turuncu_border"> <!-- Burada edittexin etrafina drawbla altından background o mavi çizgileri ayarladım onu da drawbla de new drawble files ile yaptım -->
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/emailhere"
+                android:hint="Email"
+                android:layout_marginTop="50dp"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="6dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:background="@drawable/turuncu_border"> <!-- Burada edittexin etrafina drawbla altından background o mavi çizgileri ayarladım onu da drawbla de new drawble files ile yaptım -->
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/passhere"
+                android:hint="Şifre"
+                android:layout_marginTop="50dp"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="6dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:background="@drawable/turuncu_border"
+                >
+            </EditText>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Kayıt Ol"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:onClick="kayitol"
+                android:background="@drawable/turuncu_fill"
+                android:textSize="18dp"
+                > <!--Themes kısmında da arka plan backgroundaki maviyi alsın diye ayarlama yaptık -->
+            </Button>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

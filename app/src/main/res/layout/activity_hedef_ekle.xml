@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HedefEkle">
+
+    <!-- Yaptığın videodaki adamınki daha güzeldi 3. video-->
+
+
+    <ImageView
+        android:id="@+id/iwhedefresim"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="9dp"
+        android:src="@drawable/common_full_open_on_phone"
+        app:layout_constraintBottom_toTopOf="@+id/ethedefismi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/ethedefismi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/turuncu_border"
+        android:ems="10"
+        android:hint="Hedef İsmi Giriniz."
+        android:inputType="text"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/ethedefoncelik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iwhedefresim" />
+
+    <EditText
+        android:id="@+id/ethedefoncelik"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/turuncu_border"
+        android:ems="10"
+        android:hint="Hedef Önceliği Giriniz."
+        android:inputType="text"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/ethedefkategori"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ethedefismi" />
+
+    <EditText
+        android:id="@+id/ethedefkategori"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/turuncu_border"
+        android:ems="10"
+        android:hint="Hedef Kategorisi Giriniz."
+        android:inputType="text"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/ethedefaciklama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ethedefoncelik" />
+
+    <EditText
+        android:id="@+id/ethedefaciklama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/turuncu_border"
+        android:ems="10"
+        android:hint="Hedef Açıklama Giriniz."
+        android:inputType="textMultiLine"
+        android:maxLines="5"
+        android:minLines="3"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonkaydet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ethedefkategori" />
+
+    <Button
+        android:id="@+id/buttonkaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/turuncu_fill"
+        android:text="Kaydet"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ethedefaciklama" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

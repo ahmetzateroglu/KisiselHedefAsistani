@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "712105575767",
+    "firebase_url": "https://kisiselhedefasistani-default-rtdb.firebaseio.com",
+    "project_id": "kisiselhedefasistani",
+    "storage_bucket": "kisiselhedefasistani.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712105575767:android:10508c932a9d8112bbea12",
+        "android_client_info": {
+          "package_name": "com.ahmet.kisiselhedefasistani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712105575767-op2n62c8mmfdpg4fcm0csak7vbk6sh0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmet.kisiselhedefasistani",
+            "certificate_hash": "20d2db1be72f50eb7a038b3218935907b18692e3"
+          }
+        },
+        {
+          "client_id": "712105575767-j09jh469tk1cdoosfomvovt6ofaccfq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhUHPirwrhtjlyMSWq7_i8ChhsorQJ3Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712105575767-j09jh469tk1cdoosfomvovt6ofaccfq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
